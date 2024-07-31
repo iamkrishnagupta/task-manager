@@ -342,7 +342,7 @@ void main() async {
   Hive.registerAdapter(TudooAdapter());
   await Hive.openBox<Tudoo>('myBox');
   runApp(const TudooApp());
-}                 
+}
 
 class TudooApp extends StatelessWidget {
   const TudooApp({Key? key}) : super(key: key);
